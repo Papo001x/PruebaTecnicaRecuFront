@@ -18,7 +18,6 @@ Clona el repositorio e instala las dependencias:
 
 ```bash
 git clone https://github.com/Papo001x/PruebaTecnicaRecuFront.git
-cd tu-repo
 npm install
 ```
 
