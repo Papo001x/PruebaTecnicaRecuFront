@@ -17,7 +17,7 @@ Este proyecto es un frontend en **Vue 3** con **Apollo Client** para consumir un
 Clona el repositorio e instala las dependencias:
 
 ```bash
-git clone https://github.com/tu-usuario/tu-repo.git
+git clone https://github.com/Papo001x/PruebaTecnicaRecuFront.git
 cd tu-repo
 npm install
 ```
@@ -51,42 +51,18 @@ const httpLink = createHttpLink({
 ## 🖥️ Ejecutar la aplicación
 
 ```bash
-npm run dev
+vue serve
 ```
 
 Esto abrirá la app en:
 
 ```
-http://localhost:5173
+http://localhost:8080/
 ```
 
 ---
 
-## 📁 Estructura básica
 
-```
-src/
-│
-├── components/
-│   ├── Estadisticas.vue      # Vista con gráficos
-│   └── Home.vue              # Página de bienvenida
-│
-├── apollo.js                 # Configuración del cliente Apollo
-├── graphql/queries.js        # Consultas GraphQL usadas en el frontend
-├── App.vue                   # Layout principal
-└── main.js                   # Punto de entrada de la app
-```
-
----
-
-## 📊 Funcionalidades
-
-- Gráfico de ventas totales por **mes** en dinero (`$`)
-- Gráfico de ventas por **producto** (cantidad)
-- Conexión en tiempo real a un backend con GraphQL (Django)
-- Estilo limpio y responsivo
-
----
 
 ## ✅ Autor
 
